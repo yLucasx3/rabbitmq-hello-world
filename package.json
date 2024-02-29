@@ -1,0 +1,33 @@
+{
+  "name": "rabbitmq-hello-world",
+  "version": "1.0.0",
+  "description": "A simple project implementing rabbitmq",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "dev": "nodemon src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yLucasx3/rabbitmq-hello-world.git"
+  },
+  "keywords": [
+    "rabbitmq",
+    "hello-world"
+  ],
+  "author": "Lucas Ariel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yLucasx3/rabbitmq-hello-world/issues"
+  },
+  "homepage": "https://github.com/yLucasx3/rabbitmq-hello-world#readme",
+  "devDependencies": {
+    "@types/amqplib": "^0.10.5",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.3"
+  }
+}
